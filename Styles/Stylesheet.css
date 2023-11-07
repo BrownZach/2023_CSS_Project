@@ -1,0 +1,49 @@
+.container {
+    width: 1500px;
+    background-color: lightgrey;
+    margin: 0px 0px 0px 210px;
+}
+.head {
+    width: 1490px;
+    background-color: #ededed;
+    padding: 5px;
+}
+.filler {
+    width: 100%;
+    height: 750px;
+}
+.foot {
+    width: 1470px;
+    background-color: #2a2a2a;
+    color: #d0d0d0;
+    padding: 15px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #a0a0a0;
+}
+li{
+    float: left;
+    border-right: 1px solid black;
+}
+li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+li a:hover{
+    background-color: #b0b0b0;
+}
+.active{
+    background-color: #1f1f1f;
+}
+.content{
+    margin: 25px
+}
+.tagsTable{
+    border: 10px;
+}
