@@ -39,11 +39,27 @@ li a:hover{
     background-color: #b0b0b0;
 }
 .active{
-    background-color: #1f1f1f;
+    background-color: #2f2f2f;
 }
 .content{
     margin: 25px
 }
+.tagsTable tr:nth-child(even) {
+    background-color: lightgrey;
+}
+.tagsTable tr:nth-child(odd) {
+    background-color: #bbbbbb;
+}
+.tagsTable tr:hover {
+    background-color: #cbcbcb;
+}
+.tagsTable td{
+    border: solid 2px #2a2a2a;
+}
 .tagsTable{
-    border: 10px;
+    border: solid 3px #2a2a2a;
+}
+.warning{
+    border: solid 1px #5b5b5b;
+    padding: 5px;
 }
